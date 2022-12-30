@@ -1,0 +1,173 @@
+/* START GENERAL EFFECTS */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+body {
+  font-family: 'nunito';
+  background-color: black;
+}
+
+/* END GENERAL EFFECTS */
+
+
+/* ================================================================================= */
+/* Adjust spacing between number and letters */ 
+* {                    
+  padding: 0;
+  margin: 0;
+}
+
+/* START OUTPUT*/
+.screen {
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  
+  margin-top: 5px;
+  text-align: center;
+  font-size: 20px;
+  
+  color: cyan;
+}
+
+.inputPlace {
+  grid-row: 3;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#input {
+  width: 90%;
+  height: 40px;
+  background-color: black;
+  border-radius: 10px;
+  
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  
+  border: none;
+  outline: none;
+}
+
+/* END OUTPUT */
+
+
+/* ================================================================================= */
+/* START PHONE CONTAINER*/
+.alignMid {       /* Move contents inside to center */
+  height: 100vh;  /* Distance from the top */
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  color: white;
+}
+
+
+.phoneContainer {
+  height: 550px;
+  width: 275px;
+
+  background-color: #181818;
+  border: 5px solid DarkSlateGray;
+  border-radius: 20px;
+
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+}
+/* END PHONE CONTAINER*/
+
+
+/* START DIAL PAD */
+.buttonPad {
+  grid-row: 4 / 9;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  justify-items: center;
+  align-items: center;
+
+  padding: 0 10px;
+  margin-bottom: 65px;
+}
+
+.button {
+  height: 53px;
+  width: 82px;
+  border-radius: 1px;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+  font-size: 30px;
+}
+
+
+.button span {
+  font-size: 8px;
+  letter-spacing: 2px;
+  color: silver;
+  
+  padding-left: 2px;
+}
+
+
+#callButton {
+  height: 45px;
+  width: 175px;
+  border-radius: 20px;
+  margin-top: 10px; 
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  font-size: 25x;
+  font-weight: bold;
+  letter-spacing: 5px;
+  
+  
+  grid-column: 1 / 4;
+  background-color: limegreen;
+}
+/* END DIAL PAD */
+
+
+/* ================================================================================= */
+/* START HOVER EFFECTS */
+#callButton:hover {
+  background-color: lime;
+}
+
+.button:hover {
+  -webkit-box-shadow: 0 0 10px 1px gray inset;          /*box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+  background-color: #101010;
+  -webkit-transition-duration:0.2s;
+  transform: scale(1.1);
+}
+
+
+/* END HOVER EFFECTS */
+
+#VD_logo {
+position: absolute;
+height: auto;
+width: 1000px;
+  
+top: 40vh;
+left: 5vw;
+  
+z-index: -2;
+opacity: 0.2;
+}  
+
