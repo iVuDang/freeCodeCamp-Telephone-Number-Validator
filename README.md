@@ -4,7 +4,7 @@
 freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/telephone-number-validator
 
 ## Preview:
-<img src="https://github.com/iVuDang/freeCodeCamp-Palindrome-Checker/blob/main/palindrome%20preview.png" width=100% height=100%>
+<img src="https://github.com/iVuDang/freeCodeCamp-Telephone-Number-Validator/blob/main/phone%20preview.png" width=100% height=100%>
 
 ## Technologies: 
 * HTML
